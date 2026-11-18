@@ -1,0 +1,26 @@
+{
+  "$schema": "https://gdc.internal/schemas/plugin-manifest-v1.json",
+  "name": "DRX to LUT",
+  "publisher": "GDC",
+  "version": "1.0.0",
+  "description": "Creează un LUT 65³ (.cube) dintr-un grading DaVinci Resolve exportat ca DRX, cu avertismente clare despre ce nu poate intra într-un LUT.",
+  "category": "utility",
+  "platforms": {
+    "macos": {
+      "executable": "Applications/DRX to LUT.app",
+      "minOSVersion": "13.0",
+      "signed": true,
+      "notarized": true
+    }
+  },
+  "icon": {
+    "png256": "site/assets/icon-512.png"
+  },
+  "localization": ["ro", "en", "es"],
+  "buildStage": "release",
+  "release": {
+    "channel": "stable",
+    "checkIntervalHours": 12,
+    "updateManifestPath": "site/update.json"
+  }
+}

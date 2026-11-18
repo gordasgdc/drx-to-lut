@@ -1,0 +1,7 @@
+DRX to LUT — Copyright (c) 2026 Dumitru Cristinel Gordas (GDC). MIT License (see LICENSE).
+
+Bundled third-party components: a trimmed CPython 3.12 runtime (python-build-standalone,
+Python Software Foundation License). Details and licence references: OPEN_SOURCE_NOTICES.md.
+
+Not included and not redistributed: DaVinci Resolve (Blackmagic Design), GDC STYLE Client
+and its plugins and licences. They must be installed separately by the user.

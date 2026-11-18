@@ -1,0 +1,14 @@
+.DS_Store
+.build/
+dist/
+Build/
+__pycache__/
+*.pyc
+*.xcuserdatad
+# Certificatele stau în /Users/gordasgdc/Developer/Certificates/, niciodată în repo (Regula 1).
+codesigning/*.p12
+codesigning/*.cer
+codesigning/*.p8
+# Stare de lucru internă (Regula 50), doar local
+PROJECT_STATE.md
+CLAUDE.md
